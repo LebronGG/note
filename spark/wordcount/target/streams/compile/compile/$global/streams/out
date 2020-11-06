@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hadoop/project/wordcount/src/main/scala/spark_sql.scala:43:9: peopleDF is already defined as value peopleDF[0m
+[0m[[0m[31merror[0m] [0m[0m    val peopleDF = spark.createDataFrame(rowRDD, schema)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hadoop/project/wordcount/src/main/scala/spark_sql.scala:42:18: not found: value peopleRDD[0m
+[0m[[0m[31merror[0m] [0m[0m    val rowRDD = peopleRDD.map(_.split(",")).map(attributes => Row(attributes(0), attributes(1).trim))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
